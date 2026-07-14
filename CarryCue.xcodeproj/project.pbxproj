@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2795407F8AD265BD6175FD /* CarryCueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035174572676F6A7CAA9718F /* CarryCueApp.swift */; };
+		16AEE1FD9831CD0642C0409A /* PracticeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B603C29F44BF1F36935CDF16 /* PracticeCard.swift */; };
+		23A776E34BFCF1D11642C86C /* KimiDraftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF807B53713DE71A75CC770 /* KimiDraftClient.swift */; };
+		4B32D7DBB88BE5E213C74857 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274FDCE5C94DAF3A4D74BDEF /* RootView.swift */; };
+		584CA555AF688EAB528E73E3 /* CarryCueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F83CC83245A7EBE35AEF56 /* CarryCueTests.swift */; };
+		5A13F848858894FFB3858180 /* CardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682ECD29C95C0EA113CB21D /* CardEditorView.swift */; };
+		689E25910AFA296A182FA4B1 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1287AD6179353E4CE951E /* PrivacyView.swift */; };
+		AEF2F9808F8B0215DA77A6E2 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7916990595A1BC9F00CFC /* CardRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35972B7436148BDCD189AE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4766D5A63AF9ADF91C53480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37B56ED874BC9E15CDCE131;
+			remoteInfo = CarryCue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035174572676F6A7CAA9718F /* CarryCueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarryCueApp.swift; sourceTree = "<group>"; };
+		1682ECD29C95C0EA113CB21D /* CardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorView.swift; sourceTree = "<group>"; };
+		274FDCE5C94DAF3A4D74BDEF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		76ED885EADA48600D9AA6D77 /* CarryCue.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CarryCue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C98EC9AEF55B87FBA2F816 /* CarryCueTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CarryCueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B603C29F44BF1F36935CDF16 /* PracticeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCard.swift; sourceTree = "<group>"; };
+		CFB1287AD6179353E4CE951E /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		D0A7916990595A1BC9F00CFC /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
+		DCF807B53713DE71A75CC770 /* KimiDraftClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimiDraftClient.swift; sourceTree = "<group>"; };
+		E4127B305102BC790A96E61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F1F83CC83245A7EBE35AEF56 /* CarryCueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarryCueTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6CE23BD63E6701DABAADB899 = {
+			isa = PBXGroup;
+			children = (
+				F8508D9FA93109013C505930 /* CarryCueApp */,
+				C7973F2191901A31EAA5EC48 /* CarryCueCore */,
+				87C040AE8C24A43CDC51BC86 /* Tests */,
+				7808E7B8E9104640D68C192A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7808E7B8E9104640D68C192A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76ED885EADA48600D9AA6D77 /* CarryCue.app */,
+				B5C98EC9AEF55B87FBA2F816 /* CarryCueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C040AE8C24A43CDC51BC86 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83CC83245A7EBE35AEF56 /* CarryCueTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C7973F2191901A31EAA5EC48 /* CarryCueCore */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7916990595A1BC9F00CFC /* CardRepository.swift */,
+				DCF807B53713DE71A75CC770 /* KimiDraftClient.swift */,
+				B603C29F44BF1F36935CDF16 /* PracticeCard.swift */,
+			);
+			path = CarryCueCore;
+			sourceTree = "<group>";
+		};
+		F8508D9FA93109013C505930 /* CarryCueApp */ = {
+			isa = PBXGroup;
+			children = (
+				1682ECD29C95C0EA113CB21D /* CardEditorView.swift */,
+				035174572676F6A7CAA9718F /* CarryCueApp.swift */,
+				E4127B305102BC790A96E61C /* Info.plist */,
+				CFB1287AD6179353E4CE951E /* PrivacyView.swift */,
+				274FDCE5C94DAF3A4D74BDEF /* RootView.swift */,
+			);
+			path = CarryCueApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4371828FEB84EB01974AC87E /* CarryCueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13E3CDD33AF8B04A3F1F628 /* Build configuration list for PBXNativeTarget "CarryCueTests" */;
+			buildPhases = (
+				18224709A996D20DC7DA1766 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6E9815EE31F90A6C743BF8 /* PBXTargetDependency */,
+			);
+			name = CarryCueTests;
+			packageProductDependencies = (
+			);
+			productName = CarryCueTests;
+			productReference = B5C98EC9AEF55B87FBA2F816 /* CarryCueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C37B56ED874BC9E15CDCE131 /* CarryCue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C37C2BA508C5806B56D5F67 /* Build configuration list for PBXNativeTarget "CarryCue" */;
+			buildPhases = (
+				6F1D4785101DBA606338223E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarryCue;
+			packageProductDependencies = (
+			);
+			productName = CarryCue;
+			productReference = 76ED885EADA48600D9AA6D77 /* CarryCue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4766D5A63AF9ADF91C53480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 291EEE9246A5840B51CF081B /* Build configuration list for PBXProject "CarryCue" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6CE23BD63E6701DABAADB899;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7808E7B8E9104640D68C192A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37B56ED874BC9E15CDCE131 /* CarryCue */,
+				4371828FEB84EB01974AC87E /* CarryCueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18224709A996D20DC7DA1766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584CA555AF688EAB528E73E3 /* CarryCueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1D4785101DBA606338223E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A13F848858894FFB3858180 /* CardEditorView.swift in Sources */,
+				AEF2F9808F8B0215DA77A6E2 /* CardRepository.swift in Sources */,
+				0D2795407F8AD265BD6175FD /* CarryCueApp.swift in Sources */,
+				23A776E34BFCF1D11642C86C /* KimiDraftClient.swift in Sources */,
+				16AEE1FD9831CD0642C0409A /* PracticeCard.swift in Sources */,
+				689E25910AFA296A182FA4B1 /* PrivacyView.swift in Sources */,
+				4B32D7DBB88BE5E213C74857 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C6E9815EE31F90A6C743BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37B56ED874BC9E15CDCE131 /* CarryCue */;
+			targetProxy = 35972B7436148BDCD189AE46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02C19197D5F65F9BD3ED76B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarryCue.app/CarryCue";
+			};
+			name = Debug;
+		};
+		1DB714E464A8D4F522D0A4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.carrycue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4EBDDD43292F6F9D313F59AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CarryCueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7799755157279D5D9369226E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.carrycue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9C2844C59201EF088B49F5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarryCue.app/CarryCue";
+			};
+			name = Release;
+		};
+		BFC30ED2F35A30690BB5C34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CarryCueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291EEE9246A5840B51CF081B /* Build configuration list for PBXProject "CarryCue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB714E464A8D4F522D0A4F4 /* Debug */,
+				7799755157279D5D9369226E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C37C2BA508C5806B56D5F67 /* Build configuration list for PBXNativeTarget "CarryCue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBDDD43292F6F9D313F59AF /* Debug */,
+				BFC30ED2F35A30690BB5C34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A13E3CDD33AF8B04A3F1F628 /* Build configuration list for PBXNativeTarget "CarryCueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C19197D5F65F9BD3ED76B8 /* Debug */,
+				9C2844C59201EF088B49F5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4766D5A63AF9ADF91C53480 /* Project object */;
+}
