@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D2795407F8AD265BD6175FD /* CarryCueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035174572676F6A7CAA9718F /* CarryCueApp.swift */; };
+		120DF2CED7A10706439AEB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92479C8EB31DEDF9B69D61E5 /* Assets.xcassets */; };
 		16AEE1FD9831CD0642C0409A /* PracticeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B603C29F44BF1F36935CDF16 /* PracticeCard.swift */; };
 		23A776E34BFCF1D11642C86C /* KimiDraftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF807B53713DE71A75CC770 /* KimiDraftClient.swift */; };
 		4B32D7DBB88BE5E213C74857 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274FDCE5C94DAF3A4D74BDEF /* RootView.swift */; };
@@ -32,6 +33,7 @@
 		1682ECD29C95C0EA113CB21D /* CardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorView.swift; sourceTree = "<group>"; };
 		274FDCE5C94DAF3A4D74BDEF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		76ED885EADA48600D9AA6D77 /* CarryCue.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CarryCue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92479C8EB31DEDF9B69D61E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C98EC9AEF55B87FBA2F816 /* CarryCueTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CarryCueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B603C29F44BF1F36935CDF16 /* PracticeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCard.swift; sourceTree = "<group>"; };
 		CFB1287AD6179353E4CE951E /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		F8508D9FA93109013C505930 /* CarryCueApp */ = {
 			isa = PBXGroup;
 			children = (
+				92479C8EB31DEDF9B69D61E5 /* Assets.xcassets */,
 				1682ECD29C95C0EA113CB21D /* CardEditorView.swift */,
 				035174572676F6A7CAA9718F /* CarryCueApp.swift */,
 				E4127B305102BC790A96E61C /* Info.plist */,
@@ -117,6 +120,7 @@
 			buildConfigurationList = 4C37C2BA508C5806B56D5F67 /* Build configuration list for PBXNativeTarget "CarryCue" */;
 			buildPhases = (
 				6F1D4785101DBA606338223E /* Sources */,
+				02C80A94E59F420B656E2FDA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +163,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C80A94E59F420B656E2FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120DF2CED7A10706439AEB21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18224709A996D20DC7DA1766 /* Sources */ = {
