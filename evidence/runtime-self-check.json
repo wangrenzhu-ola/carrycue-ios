@@ -19,7 +19,7 @@
     "executed_tests": 4,
     "failures": 0,
     "signal": "** TEST SUCCEEDED **",
-    "xcresult_ref": "/Users/wangrenzhu/work/CarryCue/DerivedData/Logs/Test/Test-CarryCue-2026.07.15_05-05-25-+0800.xcresult"
+    "xcresult_ref": "/Users/wangrenzhu/work/CarryCue/DerivedData/Logs/Test/Run-CarryCue-2026.07.15_05-17-47-+0800.xcresult"
   },
   "simulator": {"name": "iPhone 16 Pro", "os": "18.6", "udid": "D4E830DB-FE20-43FE-AA5E-46788A373673"},
   "install": {
