@@ -1,5 +1,16 @@
 import Foundation
 
+public enum CardRepositoryError: LocalizedError, Equatable {
+    case incompleteApprovedCard
+
+    public var errorDescription: String? {
+        switch self {
+        case .incompleteApprovedCard:
+            return "Complete the caregiver prompt, cue sequence, and stop condition before approving this card."
+        }
+    }
+}
+
 public final class CardRepository: ObservableObject {
     @Published public private(set) var cards: [PracticeCard] = []
 
@@ -21,6 +32,10 @@ public final class CardRepository: ObservableObject {
     public var draftCards: [PracticeCard] { cards.filter { !$0.isApproved } }
 
     public func upsert(_ card: PracticeCard) throws {
+        guard !card.isApproved || card.isHandoffComplete else {
+            throw CardRepositoryError.incompleteApprovedCard
+        }
+
         var updated = card
         updated.updatedAt = Date()
         if let index = cards.firstIndex(where: { $0.id == card.id }) {

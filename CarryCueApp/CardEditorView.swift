@@ -35,9 +35,13 @@ struct CardEditorView: View {
         guard consented else { errorMessage = AlertMessage("Review and accept the per-card cloud drafting consent first."); return }
         isDrafting = true
         Task {
-            do { card = try await KimiDraftClient().draft(for: card) }
+            defer { isDrafting = false }
+            do {
+                let draft = try await KimiDraftClient().draft(for: card)
+                guard !Task.isCancelled else { return }
+                card = draft
+            }
             catch { errorMessage = AlertMessage(error.localizedDescription) }
-            isDrafting = false
         }
     }
 

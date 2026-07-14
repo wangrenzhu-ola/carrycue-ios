@@ -25,7 +25,16 @@ final class CarryCueCoreTests: XCTestCase {
     func testDeleteRemovesPersistedCard() throws {
         let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString).appendingPathComponent("cards.json")
         let repository = CardRepository(fileURL: url)
-        let card = PracticeCard(patientLabel: "P-22", targetPhrase: "good morning", observedResponse: "Independent", practiceGoal: "Repeat twice", isApproved: true)
+        let card = PracticeCard(
+            patientLabel: "P-22",
+            targetPhrase: "good morning",
+            observedResponse: "Independent",
+            practiceGoal: "Repeat twice",
+            caregiverPrompt: "Invite the full phrase, then wait.",
+            cueSequence: "Wait five seconds before one model.",
+            stopCondition: "Stop after three calm attempts.",
+            isApproved: true
+        )
         try repository.upsert(card)
         try repository.delete(id: card.id)
         XCTAssertTrue(CardRepository(fileURL: url).cards.isEmpty)

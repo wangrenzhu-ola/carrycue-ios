@@ -22,6 +22,23 @@ final class CarryCueTests: XCTestCase {
         XCTAssertTrue(repository.approvedCards.isEmpty)
     }
 
+    func testApprovedCardRequiresCompleteCaregiverHandoff() throws {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString).appendingPathComponent("cards.json")
+        let repository = CardRepository(fileURL: url)
+        let incompleteApproval = PracticeCard(
+            patientLabel: "P-17",
+            targetPhrase: "call my daughter",
+            observedResponse: "Needed semantic cue",
+            practiceGoal: "Use full phrase",
+            isApproved: true
+        )
+
+        XCTAssertThrowsError(try repository.upsert(incompleteApproval)) { error in
+            XCTAssertEqual(error as? CardRepositoryError, .incompleteApprovedCard)
+        }
+        XCTAssertTrue(repository.cards.isEmpty)
+    }
+
     func testAC3MissingCloudConfigurationKeepsManualWorkflowUsable() async {
         let observation = PracticeCard(patientLabel: "P-17", targetPhrase: "call my daughter", observedResponse: "Needed semantic cue", practiceGoal: "Use full phrase")
         do {
