@@ -1,0 +1,43 @@
+{
+  "schema_version": "appfactory.xcode_runtime_report.v1",
+  "run_id": "run-043888504f7c18dffa4229cb",
+  "implementation_mode": "agent_native_build_loop",
+  "generator_template_substitution_allowed": false,
+  "swift_language_version": "5",
+  "ios_deployment_target": "14.0",
+  "xcode": {"version": "26.5", "build": "17F42"},
+  "build": {
+    "command": "xcodebuild -project CarryCue.xcodeproj -scheme CarryCue -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.6' -derivedDataPath DerivedData build",
+    "exit_code": 0,
+    "status": "PASS",
+    "signal": "** BUILD SUCCEEDED **"
+  },
+  "unit_tests": {
+    "command": "swift test",
+    "exit_code": 0,
+    "status": "PASS",
+    "executed_tests": 3,
+    "failures": 0
+  },
+  "simulator": {"name": "iPhone 16 Pro", "os": "18.6", "udid": "D4E830DB-FE20-43FE-AA5E-46788A373673"},
+  "install": {
+    "command": "xcrun simctl install booted DerivedData/Build/Products/Debug-iphonesimulator/CarryCue.app",
+    "exit_code": 0,
+    "status": "PASS"
+  },
+  "launch": {
+    "command": "xcrun simctl launch booted com.appfactory.carrycue",
+    "exit_code": 0,
+    "status": "PASS",
+    "pid": 83830
+  },
+  "runtime_readback": {
+    "command": "xcrun simctl io booted screenshot evidence/runtime.png",
+    "exit_code": 0,
+    "status": "PASS",
+    "screenshot_ref": "/Users/wangrenzhu/work/CarryCue/evidence/runtime.png",
+    "reopened_and_inspected": true
+  },
+  "fixture_only": false,
+  "test_only": false
+}

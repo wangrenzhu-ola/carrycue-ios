@@ -1,0 +1,34 @@
+Building for debugging...
+[0/7] /Users/wangrenzhu/work/CarryCue/.build/arm64-apple-macosx/debug/CarryCuePackageTests.derived/runner.swift
+[1/7] Write sources
+[4/7] Write swift-version--58304C5D6DBC2206.txt
+[6/11] Compiling CarryCueCore CardRepository.swift
+[7/11] Compiling CarryCueCore PracticeCard.swift
+[8/11] Emitting module CarryCueCore
+[9/11] Compiling CarryCueCore KimiDraftClient.swift
+[10/13] Emitting module CarryCueCoreTests
+[11/13] Compiling CarryCueCoreTests CarryCueCoreTests.swift
+[12/15] Compiling CarryCuePackageTests runner.swift
+[13/15] Emitting module CarryCuePackageTests
+[13/15] Write Objects.LinkFileList
+[14/15] Linking CarryCuePackageTests
+Build complete! (15.34s)
+Test Suite 'All tests' started at 2026-07-15 04:58:40.537.
+Test Suite 'CarryCuePackageTests.xctest' started at 2026-07-15 04:58:40.539.
+Test Suite 'CarryCueCoreTests' started at 2026-07-15 04:58:40.539.
+Test Case '-[CarryCueCoreTests.CarryCueCoreTests testDeleteRemovesPersistedCard]' started.
+Test Case '-[CarryCueCoreTests.CarryCueCoreTests testDeleteRemovesPersistedCard]' passed (0.007 seconds).
+Test Case '-[CarryCueCoreTests.CarryCueCoreTests testDraftDoesNotAppearAsApprovedAndPersists]' started.
+Test Case '-[CarryCueCoreTests.CarryCueCoreTests testDraftDoesNotAppearAsApprovedAndPersists]' passed (0.002 seconds).
+Test Case '-[CarryCueCoreTests.CarryCueCoreTests testManualDraftPreservesTargetCueAndIsUnapproved]' started.
+Test Case '-[CarryCueCoreTests.CarryCueCoreTests testManualDraftPreservesTargetCueAndIsUnapproved]' passed (0.000 seconds).
+Test Suite 'CarryCueCoreTests' passed at 2026-07-15 04:58:40.549.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.009 (0.010) seconds
+Test Suite 'CarryCuePackageTests.xctest' passed at 2026-07-15 04:58:40.549.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.009 (0.010) seconds
+Test Suite 'All tests' passed at 2026-07-15 04:58:40.549.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.009 (0.012) seconds
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

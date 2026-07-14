@@ -1,0 +1,12 @@
+{
+  "schema_version": "appfactory.ios_compliance_check.v1",
+  "status": "PASS",
+  "privacy_manifest_ref": "/Users/wangrenzhu/work/CarryCue/Resources/PrivacyInfo.xcprivacy",
+  "in_app_privacy_ref": "/Users/wangrenzhu/work/CarryCue/CarryCueApp/PrivacyView.swift",
+  "privacy_copy_ref": "/Users/wangrenzhu/work/CarryCue/docs/privacy.md",
+  "permissions": [],
+  "tracking": false,
+  "local_persistence": true,
+  "cloud_boundary": "Four minimum-necessary typed fields after per-card consent; no generated output is approved or saved automatically.",
+  "credential_scan": "No committed Kimi credential; build setting placeholder only."
+}
