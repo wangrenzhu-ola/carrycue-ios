@@ -20,6 +20,7 @@ targets:
       base:
         INFOPLIST_FILE: CarryCueApp/Info.plist
         CODE_SIGNING_ALLOWED: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
     scheme:
       testTargets: [CarryCueTests]
   CarryCueTests:
